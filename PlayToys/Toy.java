@@ -10,4 +10,23 @@ class Toy {
         this.quantity=quantity;
         this.probability=probability;
     }
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public int getProbability() {
+        return probability;
+    }
+
+    public void setProbability(int probability) {
+        this.probability = probability;
+    }
 }
