@@ -1,3 +1,5 @@
+package PlayToys;
+
 class Toy {
     private int id;
     private String name;

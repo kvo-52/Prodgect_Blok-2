@@ -6,9 +6,9 @@ public class main {
     public static void main(String[] args) {
         ToyStore store = new ToyStore();
 
-        store.addToy(new Toy(1, "Lego", 7, 25));
+        store.addToy(new Toy(1, "LegoCity", 7, 25));
         store.addToy(new Toy(2, "Barby&Ken", 6, 42));
-        store.addToy(new Toy(3, "MostorTrack", 12, 23));
+        store.addToy(new Toy(3, "MostarTruck", 12, 23));
         store.addToy(new Toy(4, "BigBool", 3, 50));
 
         Scanner scanner = new Scanner(System.in);
